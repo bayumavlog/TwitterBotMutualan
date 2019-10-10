@@ -12,11 +12,15 @@
 3.Edit sc
 
 define('CONSUMER_KEY', '#CKLOE');
+
 define('CONSUMER_SECRET', '#CSLOE');
+
 define('access_token', '#ATLOE');
+
 define('access_token_secret', '#ATSLOE');
 
 ganti #CKLOE,dll dengan token yang loe dapet
 
 4.tinggal pasang cron job 
+
 di cpanel,cron-job.org or google script
