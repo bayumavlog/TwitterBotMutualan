@@ -1,5 +1,5 @@
 <?php
-// Fake Coder Team Was Here 
+
 require_once('twitteroauth/twitteroauth.php');
 
 $consumer_key = '#CKLOE';
