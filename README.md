@@ -7,9 +7,12 @@
 #Tutor
 
 1.Upload Hosting
+
 2. Extract zip
+
 3. Ambil token https://get.perfectbot.ga
-3.Edit sc
+
+4.Edit sc
 
 define('CONSUMER_KEY', '#CKLOE');
 
@@ -21,6 +24,6 @@ define('access_token_secret', '#ATSLOE');
 
 ganti #CKLOE,dll dengan token yang loe dapet
 
-4.tinggal pasang cron job 
+5.tinggal pasang cron job 
 
 di cpanel,cron-job.org or google script
