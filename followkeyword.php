@@ -12,8 +12,8 @@ $jumlah = "1";
 $keyword ="Target Loe"; #example askmenfess DMenfess dll
 
 $koneksi = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, access_token, access_token_secret);
-$crot = $koneksi->get('search/tweets', array('q' => $keyword, 'count' => $jumlah));
-$statuses = $crot->statuses;
+$nasi = $koneksi->get('search/tweets', array('q' => $keyword, 'count' => $jumlah, 'result_type' => $type));
+$statuses = $nasi->statuses;
 foreach($statuses as $status)
 {
 $username = $status->user->screen_name;
