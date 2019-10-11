@@ -22,8 +22,6 @@ define('access_token', 'GANTI ACCESS TOKEN LOE');
 
 define('access_token_secret', 'GANTI ACCESS TOKEN SECRET LOE');
 
-ganti #CKLOE,dll dengan token yang loe dapet
-
 - Tambah target/edit target di target.txt
 
 - Pasang cron job di cpanel,cron-job.org or google script
