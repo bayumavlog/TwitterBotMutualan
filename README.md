@@ -14,13 +14,13 @@
 
 - Edit sc followkeyword.php notfollback.php
 
-define('CONSUMER_KEY', '#CKLOE');
+define('CONSUMER_KEY', 'GANTI CONSUMER KEY LOE');
 
-define('CONSUMER_SECRET', '#CSLOE');
+define('CONSUMER_SECRET', 'GANTI CONSUMER SECRET LOE');
 
-define('access_token', '#ATLOE');
+define('access_token', 'GANTI ACCESS TOKEN LOE');
 
-define('access_token_secret', '#ATSLOE');
+define('access_token_secret', 'GANTI ACCESS TOKEN SECRET LOE');
 
 ganti #CKLOE,dll dengan token yang loe dapet
 
