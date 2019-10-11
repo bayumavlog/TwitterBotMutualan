@@ -9,10 +9,17 @@ define('access_token', '#ATLOE');
 define('access_token_secret', '#ATSLOE');
 
 $jumlah = "1";
-$keyword ="Target Loe"; #example askmenfess DMenfess dll
 
+function randomline( $target )
+{
+    $lines = file( $target );
+    return $lines[array_rand( $lines )];
+}
+$target = randomline('target.txt');
+
+// post tweet
 $koneksi = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, access_token, access_token_secret);
-$nasi = $koneksi->get('search/tweets', array('q' => $keyword, 'count' => $jumlah, 'result_type' => $type));
+$nasi = $koneksi->get('search/tweets', array('q' => $target,  'count' => $jumlah, 'result_type' => recent));
 $statuses = $nasi->statuses;
 foreach($statuses as $status)
 {
