@@ -2,11 +2,12 @@
 
 require_once('twitteroauth/twitteroauth.php');
 
-$consumer_key = '#CKLOE';
-$consumer_secret = '#CSLOE';
-$oauth_token = '#ATLOE';
-$oauth_token_secret = '#ATSLOE';
-        $connection = new TwitterOAuth($consumer_key, $consumer_secret, $oauth_token, $oauth_token_secret);
+define('CONSUMER_KEY', 'GANTI CONSUMER KEY LOE');
+define('CONSUMER_SECRET', 'GANTI CONSUMER SECRET LOE');
+define('access_token', 'GANTI ACCESS TOKEN LOE');
+define('access_token_secret', 'GANTI ACCESS TOKEN SECRET LOE');
+
+        $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, access_token, access_token_secret);
 	        $followers = $connection->get("followers/ids.json?cursor=-1&");
 	         $friends = $connection->get("friends/ids.json?cursor=-1&");
 	          $fullfriend=batim($friends);
