@@ -12,11 +12,7 @@
 
 - Ambil token https://get.perfectbot.ga
 
-- Edit sc
-
-followkeyword.php
-
-notfollback.php
+- Edit sc followkeyword.php notfollback.php
 
 define('CONSUMER_KEY', '#CKLOE');
 
@@ -30,6 +26,6 @@ ganti #CKLOE,dll dengan token yang loe dapet
 
 - Tambah target/edit target di target.txt
 
-- tinggal pasang cron job 
+- Pasang cron job di cpanel,cron-job.org or google script
 
-di cpanel,cron-job.org or google script
+- Done
