@@ -10,7 +10,7 @@
 
 - Extract zip
 
-- Ambil token https://get.perfectbot.ga
+- Ambil token di https://developer.twitter.com/en/apps kalau belom punya buat dulu
 
 - Edit sc followkeyword.php notfollback.php
 
