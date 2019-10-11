@@ -3,10 +3,10 @@
 session_start();
 require_once('twitteroauth/twitteroauth.php');
 
-define('CONSUMER_KEY', '#CKLOE');
-define('CONSUMER_SECRET', '#CSLOE');
-define('access_token', '#ATLOE');
-define('access_token_secret', '#ATSLOE');
+define('CONSUMER_KEY', 'GANTI CONSUMER KEY LOE');
+define('CONSUMER_SECRET', 'GANTI CONSUMER SECRET LOE');
+define('access_token', 'GANTI ACCESS TOKEN LOE');
+define('access_token_secret', 'GANTI ACCESS TOKEN SECRET LOE');
 
 $jumlah = "1";
 $type = "recent";
