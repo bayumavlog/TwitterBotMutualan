@@ -21,7 +21,7 @@ $statuses = $nasi->statuses;
 foreach($statuses as $status)
 {
 $username = $status->user->screen_name;
-$koneksi->post('friendships/create', array('screen_name' => $username));
+$eksekusi = $koneksi->post('friendships/create', array('screen_name' => $username));
 if($eksekusi->errors) {
 echo "<center>Gagal</center>";
 }
