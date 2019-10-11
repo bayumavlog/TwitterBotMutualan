@@ -9,6 +9,8 @@ define('access_token', '#ATLOE');
 define('access_token_secret', '#ATSLOE');
 
 $jumlah = "1";
+$type = "recent";
+
 function randomline( $target )
 {
     $lines = file( $target );
@@ -16,7 +18,7 @@ function randomline( $target )
 }
 $target = randomline('target.txt');
 $koneksi = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, access_token, access_token_secret);
-$nasi = $koneksi->get('search/tweets', array('q' => $target,  'count' => $jumlah));
+$nasi = $koneksi->get('search/tweets', array('q' => $target,  'count' => $jumlah, 'result_type' => $type));
 $statuses = $nasi->statuses;
 foreach($statuses as $status)
 {
